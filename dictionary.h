@@ -22,8 +22,8 @@ public:
     Dictionary() = default;
     ~Dictionary() = default;
     
-    Dictionary(const Dictionary& other) = delete;
-    Dictionary& operator=(const Dictionary& other) = delete;
+    Dictionary(const Dictionary& other) = default;
+    Dictionary& operator=(const Dictionary& other) = default;
 
     Dictionary(Dictionary&&) = default;
     Dictionary& operator=(Dictionary&&) = default;
