@@ -59,7 +59,7 @@ std::string Dictionary::translate(const std::string& sentence)
                 word += c;
             }
 
-            //In russian basicly there is a none corresponding for the this words
+            
             if (word == "is" || word == "the" || word == "to" || word == "a" || word == "am" || word == "are")
             {
                 word.clear();
